@@ -1,10 +1,10 @@
 # Helm Chart Repository
 
-[argo-rollouts](./charts/argo-rollouts)
+[argo-rollouts](https://github.com/day0hero/helm-charts/tree/main/charts/argo-rollouts)
 
-[rollout-canary](./charts/rollout-canary)
+[rollout-canary](https://github.com/day0hero/helm-charts/tree/main/charts/rollout-canary)
 
-[rollout-bluegreen](./charts/rollout-bluegreen)
+[rollout-bluegreen](https://github.com/day0hero/helm-charts/tree/main/charts/rollout-bluegreen)
 
 
 ## Usage
