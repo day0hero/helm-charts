@@ -18,5 +18,9 @@ helm repo add https://day0hero.github.io/helm-charts/
 helm search repo day0hero
 ```
 ```shell
-helm install vp-hello
+helm install vp-hello day0hero/vp-hello
+```
+
+```shell
+helm uninstall vp-hello
 ```
