@@ -3,6 +3,16 @@ entries:
   rollout-bluegreen:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-11-16T03:04:57.62489714Z"
+    description: Argo Rollouts - bluegreen - created from argoproj examples
+    digest: 7ff1611ae5eb63f092a0d291b0f3ef7a6c0a6fc1c2b32a7b70cc26ace0b23266
+    name: rollout-bluegreen
+    type: application
+    urls:
+    - https://github.com/day0hero/helm-charts/releases/download/rollout-bluegreen-0.1.1/rollout-bluegreen-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-11-16T02:42:13.268101241Z"
     description: A Helm chart for Kubernetes
     digest: 67d6364bcd164992444943210a62b132a0a44d6ac6ad2f9873491a5062e2a61d
@@ -12,6 +22,16 @@ entries:
     - https://github.com/day0hero/helm-charts/releases/download/rollout-bluegreen-0.1.0/rollout-bluegreen-0.1.0.tgz
     version: 0.1.0
   rollout-canary:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-11-16T03:04:57.759282025Z"
+    description: Argo Rollout - Canary - Created from argoproj examples
+    digest: 28eb42b4f714e9ba752df13048207f14035ede1d97c07f298e5a18171b36ce7c
+    name: rollout-canary
+    type: application
+    urls:
+    - https://github.com/day0hero/helm-charts/releases/download/rollout-canary-0.1.1/rollout-canary-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2022-11-16T02:42:13.461890373Z"
@@ -44,4 +64,4 @@ entries:
     urls:
     - https://github.com/day0hero/helm-charts/releases/download/vp-hello-0.1.0/vp-hello-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-16T02:42:13.869874239Z"
+generated: "2022-11-16T03:04:57.759323225Z"
