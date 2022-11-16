@@ -1,0 +1,16 @@
+{{- range .Values.route }}
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: {{ .name }}
+  annotations:
+    argocd.argoproj.io/sync-wave: "2"
+spec:
+  selector:
+    app: rollout-bluegreen
+  ports:
+  - protocol: {{ $.Values.service.protocol }}
+    port: {{ $.Values.service.port }}
+    targetPort: {{ $.Values.service.targetPort }}
+{{- end }}
