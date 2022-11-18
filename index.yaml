@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  nexus:
+  - apiVersion: v2
+    appVersion: 3.16.2
+    created: "2022-11-18T15:27:40.581351103Z"
+    description: A Helm chart to deploy Nexus
+    digest: 6093cc9ee00739515d95676064bc5a5d268e5e6e3abc2d33f164ac9729ee9516
+    name: nexus
+    type: application
+    urls:
+    - https://github.com/day0hero/helm-charts/releases/download/nexus-0.1.0/nexus-0.1.0.tgz
+    version: 0.1.0
   rollout-bluegreen:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -64,4 +75,4 @@ entries:
     urls:
     - https://github.com/day0hero/helm-charts/releases/download/vp-hello-0.1.0/vp-hello-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-16T03:04:57.759323225Z"
+generated: "2022-11-18T15:27:40.581456204Z"
