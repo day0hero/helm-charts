@@ -56,6 +56,16 @@ entries:
   rollouts:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-12-06T22:02:05.589709081Z"
+    description: A Helm chart for Kubernetes
+    digest: 478e267bcf806de2735991736a706a7469dec6a15a028a9e01b1e5f800832eb7
+    name: rollouts
+    type: application
+    urls:
+    - https://github.com/day0hero/helm-charts/releases/download/rollouts-0.1.1/rollouts-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-11-16T02:42:13.671076506Z"
     description: A Helm chart for Argo Rollouts
     digest: e5662e4f58b4acfa32f339b455e1348100faa96a501c3e1cde4a0baaac044cc5
@@ -75,4 +85,4 @@ entries:
     urls:
     - https://github.com/day0hero/helm-charts/releases/download/vp-hello-0.1.0/vp-hello-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-18T15:27:40.581456204Z"
+generated: "2022-12-06T22:02:05.589742681Z"
