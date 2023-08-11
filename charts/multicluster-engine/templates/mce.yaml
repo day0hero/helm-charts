@@ -2,6 +2,10 @@ apiVersion: multicluster.openshift.io/v1
 kind: MultiClusterEngine
 metadata:
   name: engine
+  namespace: {{ .Values.operator.name }}
+  annotations:
+    "helm.sh/hook": post-install
+    "helm.sh/hook-delete-policy": hook-succeeded
 spec:
   availabilityConfig: High
   overrides:
