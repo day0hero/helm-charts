@@ -1,11 +1,9 @@
 apiVersion: operators.coreos.com/v1
 kind: OperatorGroup
 metadata:
-  name: {{ .Values.operator.name }}
-  namespace: {{ .Values.operator.name }}
+  name: multicluster-engine
+  namespace: multicluster-engine
 spec:
   targetNamespaces:
-  - {{ .Values.operator.name }}
-{{- if .Values.operator.upgradeStrategy }}
-  upgradeStrategy: {{ .Values.operator.upgradeStrategy }}
-{{- end }}
+  - multicluster-engine
+  upgradeStrategy: Default
