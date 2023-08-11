@@ -1,0 +1,13 @@
+apiVersion: multicluster.openshift.io/v1
+kind: MultiClusterEngine
+metadata:
+  name: engine
+spec:
+  availabilityConfig: High
+  overrides:
+    components:
+{{- range .Values.mce.overrides.components }}
+    - enabled: {{ .enabled }}
+      name: {{ .name }} 
+{{- end }}
+  targetNamespace: {{ .Values.operator.name }}
