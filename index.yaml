@@ -3,6 +3,16 @@ entries:
   multicluster-engine:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2023-08-14T16:14:40.639030477Z"
+    description: A Helm chart for Kubernetes
+    digest: bbd5a68dc304873cc1c9488bc8e4166fc21711049a5644a105fe717c7fcbf9f4
+    name: multicluster-engine
+    type: application
+    urls:
+    - https://github.com/day0hero/helm-charts/releases/download/multicluster-engine-0.1.11/multicluster-engine-0.1.11.tgz
+    version: 0.1.11
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2023-08-14T16:09:18.856109917Z"
     description: A Helm chart for Kubernetes
     digest: 0a55e560baec9ead6c5d24e16a812971659473281eb6aa534d52a3dfb96b23fe
@@ -116,4 +126,4 @@ entries:
     urls:
     - https://github.com/day0hero/helm-charts/releases/download/vp-hello-0.1.0/vp-hello-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-14T16:09:18.85674152Z"
+generated: "2023-08-14T16:14:40.639060379Z"
