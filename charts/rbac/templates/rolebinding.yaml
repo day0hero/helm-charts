@@ -16,10 +16,12 @@ subjects:
 roleRef:
 {{- if $value.scope.cluster }}
   kind: ClusterRole
+  name: {{ $.Values.name }}-clr
 {{- else }}
   kind: Role
+    name: {{ $.Values.name }}-role
 {{- end }}
-  name: {{ $.Values.name }}
+
   apiGroup: rbac.authorization.k8s.io
 ---
 {{- end }}
