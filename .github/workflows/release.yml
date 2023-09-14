@@ -5,6 +5,8 @@ on:
     # Does not respond to a tag only. Tag before pushing
     branches:
       - main
+  workflow_dispatch:
+    
 
 jobs:
   release:
