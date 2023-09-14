@@ -2,6 +2,7 @@ name: Release Charts
 
 on:
   push:
+    # Does not respond to a tag only. Tag before pushing
     branches:
       - main
 
