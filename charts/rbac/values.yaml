@@ -8,7 +8,7 @@ roles:
       - ""
 # Is this a clusterRole (default true)
     scope:
-      cluster: false
+      cluster: true
 # Resources are defined plural - pods, nodes, deployments
     resources:
       - '*'

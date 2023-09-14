@@ -19,9 +19,8 @@ roleRef:
   name: {{ $.Values.name }}-clr
 {{- else }}
   kind: Role
-    name: {{ $.Values.name }}-role
+  name: {{ $.Values.name }}-role
 {{- end }}
-
   apiGroup: rbac.authorization.k8s.io
 ---
 {{- end }}
