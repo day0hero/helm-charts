@@ -10,7 +10,7 @@ metadata:
   name: {{ $.Values.name }}
 subjects:
 - kind: {{ $value.subjects.kind | default "ServiceAccount" }}
-  name: {{ $.Values.name }}-{{ $value.subjects.kind | default "sa" }}
+  name: {{ $.Values.name }}-{{ $value.subjects.kind | lower | default "sa" }}
   namespace: {{ $.Values.namespace }}
   apiGroup: {{ $value.subjects.apiGroup | quote }}
 roleRef:
