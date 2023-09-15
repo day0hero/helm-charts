@@ -55,6 +55,16 @@ entries:
   rbac:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2023-09-15T03:27:30.722208061Z"
+    description: A Helm chart that provisions service accounts, roles and rolebindings
+    digest: cb5044db99d7a266f0a74ba71ccc8341e51e984988c7befd7ef68ba956661a2d
+    name: rbac
+    type: application
+    urls:
+    - https://github.com/day0hero/helm-charts/releases/download/rbac-0.1.5/rbac-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2023-09-14T03:20:48.976339172Z"
     description: A Helm chart that provisions service accounts, roles and rolebindings
     digest: ce3ef4a9d789878526de43250ba01de6309645ef8dd7152359db7b432dd308ae
@@ -137,4 +147,4 @@ entries:
     urls:
     - https://github.com/day0hero/helm-charts/releases/download/vp-hello-0.1.0/vp-hello-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-14T03:20:48.97662977Z"
+generated: "2023-09-15T03:27:30.722242561Z"
