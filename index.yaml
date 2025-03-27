@@ -139,6 +139,16 @@ entries:
   vp-hello:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-03-27T16:51:23.50314064Z"
+    description: A Helm chart for Kubernetes
+    digest: bc99b9262b667c985ddc0d6446d575ed0f68394271c12369790ce72928b76af5
+    name: vp-hello
+    type: application
+    urls:
+    - https://github.com/day0hero/helm-charts/releases/download/vp-hello-0.1.1/vp-hello-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-11-16T02:42:13.869868439Z"
     description: A Helm chart for Kubernetes
     digest: e2168009a7a99a866419e20b8cf0e231940680a94227d693712a980b14379d5c
@@ -147,4 +157,4 @@ entries:
     urls:
     - https://github.com/day0hero/helm-charts/releases/download/vp-hello-0.1.0/vp-hello-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-15T03:27:30.722242561Z"
+generated: "2025-03-27T16:51:23.503162932Z"
